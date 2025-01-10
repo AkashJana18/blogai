@@ -1,5 +1,7 @@
 "use client"
+import { Header } from "@/components/Header";
 import { Vortex } from "@/components/ui/vortex";
+
 
 export default function Home() {
   return (
@@ -11,7 +13,7 @@ export default function Home() {
       baseHue={500}
       className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
     >
-
+      <Header />
     </Vortex>
   </div>
   );
