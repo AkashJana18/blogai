@@ -14,7 +14,7 @@ const ChatComponent: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col h-96 w-full p-4 bg-transparent border-2 border-red-500">
+    <div className="flex flex-col h-full w-full p-4 bg-transparent border-2 border-red-500">
       <div className="flex-1 overflow-y-auto flex flex-col items-end">
         {messages.map((msg, index) => (
           <div
